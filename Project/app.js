@@ -37,8 +37,8 @@ function addItem(e) {
         element.setAttributeNode(attr);
         element.innerHTML = `<p class="title">${value}</p>
         <div class="btn-container">
-        <button type="button" class="edit-btn"> <i class="fas fa-edit"></i> </button>
-        <button type="button" class="delete-btn"> <i class="fas fa-trash"></i> </button>
+        <button type="button" class="edit-btn"> Edit</i> </button>
+        <button type="button" class="delete-btn"> Delete</i> </button>
         </div>`;
         const deleteBtn = element.querySelector(".delete-btn");
         const editBtn = element.querySelector(".edit-btn");
