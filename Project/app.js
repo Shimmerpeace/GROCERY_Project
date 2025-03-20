@@ -168,8 +168,8 @@ function createListItem(id, value) {
     element.setAttributeNode(attr);
     element.innerHTML = `<p class="title">${value}</p>
         <div class="btn-container">
-        <button type="button" class="edit-btn"> Edit </i> </button>
-        <button type="button" class="delete-btn"> Delete </i> </button>
+        <button type="button" class="edit-btn"> Edit  </button>
+        <button type="button" class="delete-btn"> Delete </button>
         </div>`;
     const deleteBtn = element.querySelector(".delete-btn");
     const editBtn = element.querySelector(".edit-btn");
